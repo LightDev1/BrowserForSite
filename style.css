@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.search__container {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  
+}
+
+.search__container .search__field {
+  height: 45px;
+  width: 100%;
+}
+
+.list__container {
+  display: flex;
+  align-items: flex-start;
+  width: 45%;
+}
+
+.list__container .list {
+  list-style-type: circle;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.hide {
+  display: none;
+}
+
